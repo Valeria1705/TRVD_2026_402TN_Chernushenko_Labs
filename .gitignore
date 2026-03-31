@@ -1,1 +1,94 @@
+# .NET build outputs
+bin/
+obj/
+out/
+build/
+artifacts/
 
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.vssscc
+*.vsix
+*.vspscc
+
+# Rider
+.idea/
+*.sln.iml
+
+# Package Manager cache
+packages/
+.nuget/
+
+# Test results
+TestResults/
+*.trx
+
+# Logs
+*.log
+*.logs
+
+# Database files
+*.mdf
+*.ldf
+*.db
+*.sqlite
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Application secrets (if you store them in settings)
+appsettings.Development.json   # Uncomment if you want to exclude development secrets
+appsettings.Local.json
+secrets.json
+
+# MongoDB
+dump/
+mongodb-data/
+
+# Entity Framework migration snapshot (optional)
+*_Migrations.cs
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# Node modules (if any)
+node_modules/
+
+# Compiled output
+*.dll
+*.exe
+*.pdb
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.vs
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Local user-specific configuration
+launchSettings.json  # Some teams commit this; uncomment if you want to ignore
+
+*.json
+*.http
+*.csproj
